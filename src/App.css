@@ -1,0 +1,9 @@
+ body{
+  background: url(travel-guru-master/Image/Rectangle\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: 10% 70%;
+  height: 100vh;
+}
+

@@ -1,0 +1,27 @@
+.form-label{
+    width: 360px;
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
+    color: #818181;
+    padding: 15px;
+}
+
+.full{
+    width: 330px;
+}
+.flex{
+    display: flex;
+}
+.top{
+    margin-top: 15px;
+    width: 330px;
+}
+.position{
+    position: relative;
+    width: 160px;
+    margin-left: 6px;
+}
+.button{
+ text-align: center;
+}

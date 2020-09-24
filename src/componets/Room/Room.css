@@ -1,0 +1,21 @@
+.image-slice{
+width: 270px;
+height: 188px;
+margin-left: 60px;
+}
+.text-slice{
+width: 314.02px;
+height: 189px;
+
+
+}
+.back-container{
+    padding: 10px;
+}
+.icon-fixed{
+    height: 15px;
+    width: 15px ;
+}
+.text-slice h6{
+    color: #6A6A6A;
+}

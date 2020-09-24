@@ -1,0 +1,35 @@
+
+.loginForm{
+    background-color: white;
+    border: 1px solid lightgrey;
+    width: 570px;
+    height: 487px;
+    margin: auto;
+    padding: 20px;
+    
+}
+.loginForm img{
+ width: 37px;
+}
+
+.loginForm input {
+    border: none; 
+    border-width: 0; 
+    box-shadow: none;
+    outline: none;
+    border-bottom: 1px solid gainsboro;
+    width: 462px;
+    height: 32px;
+}
+.logInImage{
+    background: #FFFFFF;
+border: 1px solid #C7C7C7;
+box-sizing: border-box;
+border-radius: 57px;
+width: 461px;
+margin-bottom: 10px;
+}
+.paragraph{
+    margin-left: 200px;
+    margin-right: 200px;
+}

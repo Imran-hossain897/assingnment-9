@@ -1,0 +1,16 @@
+.logoDesign{
+    width: 120.26px;
+    height: 56px;
+    filter: brightness(800%);    
+}
+.fixed{
+    margin: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+    
+}
+.displaying{
+    display: flex;
+    float: right;
+    padding: 5px;
+}
