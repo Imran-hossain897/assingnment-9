@@ -1,11 +1,11 @@
 import React, { useContext, useState } from 'react';
 import * as firebase from "firebase/app";
 import "firebase/auth";
-import firebaseConfig from '../firebase.config';
-import logofb from '../travel-guru-master/Icon/fb.png';
-import logogoogle from '../travel-guru-master/Icon/google.png';
+import firebaseConfig from '../../firebase.config';
+import logofb from '../../travel-guru-master/Icon/fb.png';
+import logogoogle from '../../travel-guru-master/Icon/google.png';
 
-import { userContext } from '../App';
+import { userContext } from '../../App';
 import { Link, useHistory, useLocation } from 'react-router-dom';
 import './LogIn.css'
 import { Button } from 'react-bootstrap';
@@ -195,7 +195,6 @@ const LogIn = () => {
             </div>
             <p style={{ color: 'red' }}> {user.error}</p>
             {user.success && <p style={{ color: 'green' }}> {newUser ? 'created account' : 'logged in'} successfully</p>}
-
             <div>
                 <p className='paragraph'>or</p>
                 <div className='logInImage'  onClick={handleFbSingin}>

@@ -9,8 +9,8 @@ import Header from './componets/Header/Header';
 import NoMatched from './componets/NoMatched/NoMatched';
 import TravleDetails from './componets/TravleDetails/TravleDetails';
 import Booking from './componets/Booking/Booking';
-import LogIn from './LogIn/LogIn';
 import PrivateRoute from './componets/PrivateRoute/PrivateRoute';
+import LogIn from './componets/LogIn/LogIn';
 
 export const userContext = createContext()
 
